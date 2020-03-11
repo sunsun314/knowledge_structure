@@ -9,9 +9,11 @@ Btrace是JVM中的一个代码追踪工具，其原理就是通过JVM对外提�
 Btrace的基本使用方法如下
 + 创建一个Btrace的脚本，即一个一般意义上面的JAVA类，并在内部按照Btrace的规则写上注入的方法
 + 使用```btrace <pid> <script.java>```其中pid指的时目标运行的JVM进程pid
++ 当发现不生效的时候使用-v能很好的通过DEBUG日志查看不生效的原因
 
 其他的细节使用方法见阿里中间件团队的博文
-http://jm.taobao.org/2010/11/11/509/
+http://jm.taobao.org/2010/11/11/509/  
+其他还有之前年轻的时候编写的博文https://blog.csdn.net/sunsun314/article/details/79846318
 
 ### 注意事项
 
@@ -42,3 +44,10 @@ ${JAVA_HOME}/bin/java -Dcom.sun.btrace.unsafe=true  -cp ${BTRACE_HOME}/build/b
 @BTrace(unsafe = true)
 public final class BtraceClusterDelay 
 ```
+
+#### btrace使用环境限制
+Btrace使用有几个隐性的非常僵硬的限制
++ 必须运行在JDK之上，版本必须在8以上
++ 必须使用权限足够大的用户，root最好
++ 必须运行的JDK和目标的JVM线程完全一致
++ 必须要配置JAVA_HOME指向需要运行的JDK
