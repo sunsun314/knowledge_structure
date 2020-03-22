@@ -3,9 +3,9 @@ Personal Knowledge Structure Index(The Knowledge I Have Got)
 
 + 计算机学科相关
    + 基础应用开发相关
-        + 计算机网络的连接和组成
+        + [计算机网络的连接和组成](cs_related\basic_knowledge\network\cs_network.md)
    + 计算机语言相关
-        + Java相关
+        + [Java相关](cs_related\computer_languages\java\java_index.md)
         + golang相关
         + C++相关
         + python相关
@@ -13,7 +13,7 @@ Personal Knowledge Structure Index(The Knowledge I Have Got)
    + 分布式系统相关
         + 分布式文件存储系统(GFS/HDFS)
         + 分布式表格系统(HBASE)
-        + 分布式缓存系统(Memcached/Farm)
+        + [分布式缓存系统(Memcached/Farm)](cs_related\distributed_systems\distributed_cache\Memcached.md)
    + 数据库相关
         + MVCC理论
         + MySQL行为以及代码调研
@@ -32,6 +32,8 @@ Personal Knowledge Structure Index(The Knowledge I Have Got)
        + 国际债务相关(《这次不一样，八百年金融危机历史》)
        + 财报研习(《洞见》)
 + 社会学相关
+    + 宗教学相关
+       + [佛教](religious_studies\buddhism\core_buddhist_teachings.md)
 + 中国大陆法律学相关
     + 民法
     + 刑法
