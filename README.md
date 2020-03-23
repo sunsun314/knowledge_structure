@@ -19,11 +19,12 @@ Personal Knowledge Structure Index(The Knowledge I Have Got)
         + MySQL行为以及代码调研
    + 基础算法相关
    + 机器学习相关
-+ 开源项目相关
-       + KafKa 
-       + Hadoop
-       + Spark
-       + ZooKeeper
++ 开源项目相关 
+   + KafKa 
+   + Hadoop
+   + Spark
+   + ZooKeeper
+   + Netty
 + 金融相关
    + 宏观经济学
    + 央行经济学
