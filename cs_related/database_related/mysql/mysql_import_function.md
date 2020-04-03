@@ -41,3 +41,33 @@ sql真正执行的方法,中间包含了sql执行的每个大体上的细节步�
   switch (lex->sql_command) 
 ```
 对于SQL的类型进行区分，使得不同的SQL类型可以走到不同的方法中去
+
+
+##  sql_parse.cc#execute_sqlcom_select
+分化之后的select执行方法
+
+
+## sql_select.cc#handle_query
+
+
+
+## sql_executor#evaluate_join_record
+
+
+
+## records.cc#init_read_record
+READ_RECORD对象初始化方法  
+READ_RECORD对象后续通过封装sort方法，对外提供完成排序的顺序记录，从而达成外部的数据有序使用的目的  
+而本方法中则是对于READ_RECORD对象进行合理的初始化
+
++ 对于READ_RECORD对象进行初始化，清空内存内容
++ 根据打开table的属性设置以下的几个项目
+     - info->record
+     - info->ref_length
++ 根据表格的属性给info->read_record这个函数指针具体的几个函数类型和条件如下
+     - 表格为临时表 & 使用插件字段？ & 插件字段打包？ ：```rr_unpack_from_tempfile<true>```
+     - 表格为临时表 & 插件字段打包 ：```rr_unpack_from_tempfile<true>```
+     - 其他表格为临时表的情况：```rr_from_tempfile```
+     - 从cache中读取：```rr_from_cache```
+     - 使用快速读取：```rr_quick```
+     - 
