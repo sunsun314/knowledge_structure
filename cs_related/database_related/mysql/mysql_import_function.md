@@ -70,4 +70,7 @@ READ_RECORD对象后续通过封装sort方法，对外提供完成排序的顺�
      - 其他表格为临时表的情况：```rr_from_tempfile```
      - 从cache中读取：```rr_from_cache```
      - 使用快速读取：```rr_quick```
-     - 
+     - table有在内存中的排序结果 & 不使用插件字段：```rr_from_pointers```
+     - 不是以上所有情况：```rr_sequential```
+
+总结：这个方法是根据输入的table的类型进行初始化READ_RECORD对象读取信息的方式，也就是对于后续read_record函数的封装。在java代码中往往会使用多态的方式进行实现，但是在C++中函数指针将会更加普遍的被使用，个人认为这不是一个太好的方法。
