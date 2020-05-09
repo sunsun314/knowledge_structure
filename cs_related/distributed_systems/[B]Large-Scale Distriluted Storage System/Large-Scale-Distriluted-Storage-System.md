@@ -61,7 +61,7 @@
 
 ### 分布式数据库实践(OceanBase)
 
-#### OceanBase的整体架构
+#### [OceanBase的整体架构](ob-over-view.md)
 
 #### OceanBase各个组件的逻辑实现
 
