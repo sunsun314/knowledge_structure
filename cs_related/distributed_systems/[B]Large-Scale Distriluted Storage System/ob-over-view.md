@@ -74,3 +74,13 @@ SSD块写的特性导致了随机写的性能差，所以采用整块写入来�
 + 数据传输校验
 + 数据副本校验
 + 数据镜像校验
+
+
+## UpdateServer内部实现
+线程实现模型
+![updateServer线程模型](pic/OceanBase-updateServer-thread.png)
+数据使用存储机制
+![updateServer数据模型](pic/OceanBase-updateServer-data.png)
+
+## ChunkServer内部的数据模型
+![chunkServer数据模型](pic/OceanBase-chunkServer-data.png)
