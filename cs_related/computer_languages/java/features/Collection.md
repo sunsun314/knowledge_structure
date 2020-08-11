@@ -65,7 +65,12 @@ CopyOnWriteArrayList
 ## Map
 
 ### ConcurrentSkipListMap
-
+内部通过一个跳表进行实现
+存在关键元素head,代表了跳表的表头
+```
+ private transient volatile HeadIndex<K,V> head;
+```
+每次循环开始的时候通过方法findPredecessor找到K的前继节点
 
 ## List
 
