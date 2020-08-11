@@ -71,6 +71,32 @@ CopyOnWriteArrayList
  private transient volatile HeadIndex<K,V> head;
 ```
 每次循环开始的时候通过方法findPredecessor找到K的前继节点
+通过跳表进行实现，从而达成线程安全的一个Map，内部数据有序
+其中使用HeadIndex对于跳表中的每一个节点进行封装
+```
+  Index(Node<K,V> node, Index<K,V> down, Index<K,V> right) {
+            this.node = node;
+            this.down = down;
+            this.right = right;
+        }
+		
+static final class HeadIndex<K,V> extends Index<K,V> {
+        final int level;
+        HeadIndex(Node<K,V> node, Index<K,V> down, Index<K,V> right, int level) {
+            super(node, down, right);
+            this.level = level;
+        }
+    }
+```
+也就是几个属性，node是内容，down是下层节点，right是next节点
+而有个全局的属性则是代表了跳表的头
+```
+final Comparator<? super K> comparator;
+```
+主要通过理解doPut方法来看具体的跳表的实现逻辑
+```
+   
+```
 
 ## List
 
