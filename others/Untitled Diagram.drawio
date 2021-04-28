@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:47:03.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.6" etag="mo1WZkpl1iMIPIyaA1oi" type="github"><diagram id="x2DtzCigd441JmIpOX9a">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-28T09:22:58.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="M9PqvOzIwW-VDXQaqy1j" version="14.6.6" type="github">
+  <diagram id="x2DtzCigd441JmIpOX9a" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="" id="hQiGtJlmlVDsOn_08v5X-3">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=flexArrow;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-1" target="hQiGtJlmlVDsOn_08v5X-2">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-1" value="DEV大数据平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-2" target="hQiGtJlmlVDsOn_08v5X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-2" value="cadmus-listener&lt;br&gt;&lt;br&gt;PgcGoodsMapListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-4" value="Goods匹配对" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="235" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-5" value="插入PGC_NOTE表格&lt;br&gt;数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-5" target="hQiGtJlmlVDsOn_08v5X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="384" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-9" value="cadmus-dts&lt;br&gt;&lt;br&gt;PgcNoteProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-12" value="DTS PGC_NOTE 信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="164" y="340" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-16" target="hQiGtJlmlVDsOn_08v5X-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-16" value="类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="450" width="76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-17" target="hQiGtJlmlVDsOn_08v5X-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-17" value="更新数据&lt;br&gt;USER_PGC_MAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-19" target="hQiGtJlmlVDsOn_08v5X-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-19" target="hQiGtJlmlVDsOn_08v5X-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-19" value="插入数据&lt;br&gt;USER_PGC_MAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-22" target="hQiGtJlmlVDsOn_08v5X-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-22" value="&lt;span&gt;cadmus-listener&lt;br&gt;&lt;br&gt;PgcApprovedMsgListener&lt;br&gt;PgcDisapproveMsgListener&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="355" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-24" value="笔记上下线消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-25" target="hQiGtJlmlVDsOn_08v5X-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-25" value="上下线消息同步到推荐侧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-28" value="清空PGC相关缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hQiGtJlmlVDsOn_08v5X-30" target="hQiGtJlmlVDsOn_08v5X-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-30" value="处理相关订阅的逻辑&lt;br&gt;插入&lt;br&gt;USER_PGC_FEED相关记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hQiGtJlmlVDsOn_08v5X-32" value="发送相关用户消息&lt;br&gt;订阅红点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="550" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
